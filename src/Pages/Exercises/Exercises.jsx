@@ -1,9 +1,14 @@
 import React from "react";
+import { Container, Box, Title } from "../../Styles/Pages/exercises";
 
 export default function Exercises() {
   return (
-    <div style={{ marginTop: 90 }}>
-      <h1>Pagina de exercicios</h1>
-    </div>
+    <Container>
+      <Title>Pagina de exercicios</Title>
+
+      <Box>
+        <h2>tested</h2>
+      </Box>
+    </Container>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Header } from "./Components/Header";
-import { Container } from "./Styles/Pages/styleApp";
+import { Container } from "./Styles/Pages/app.style";
 import GlobalStyles from "./Styles";
 
 import { BrowserRouter } from "react-router-dom";
