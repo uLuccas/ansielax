@@ -7,15 +7,16 @@ export default createGlobalStyle`
   padding: 0;
   box-sizing: border-box;
   outline: 0;
- 
+
 }
 
 body{
-  /* overflow-x: hidden; */
-  /* overflow-Y: hidden; */
+  ::-webkit-scrollbar { 
+	display: none;
+  }
 }
 
-button, small, span, p, label,h1{
+button, span, p, label,h1,h3,h2,ul{
   font-family: 'Ubuntu Condensed', sans-serif;
   letter-spacing: 1.1px;
   }
