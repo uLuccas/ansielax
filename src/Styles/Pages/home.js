@@ -49,7 +49,7 @@ export const Box = styled.div`
   box-shadow: 3px 4px 7px #ccc;
 
   margin: 0 20px;
-  padding: 10px;
+  padding: 10px 20px;
 
   background-color: #87cefa;
 

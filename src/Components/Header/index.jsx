@@ -1,24 +1,46 @@
 import React from "react";
 import { Box, Container, Button, Title } from "../../Styles/Components/header";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 export function Header() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   return (
     <Container>
-      <Title>Ansielax</Title>
+      <img
+        src="/ANSIELEX.png"
+        alt=""
+        onClick={() => {
+          navigate("/");
+        }}
+      />
       <Box>
-        <Button onClick={() =>{navigate('/')}}>
+        <Button
+          onClick={() => {
+            navigate("/");
+          }}
+        >
           <b>home</b>
         </Button>
-        <Button onClick={() =>{navigate('/about')}}>
+        <Button
+          onClick={() => {
+            navigate("/about");
+          }}
+        >
           <b>ansiedade</b>
         </Button>
-        <Button onClick={() =>{navigate('/exercises')}}>
+        <Button
+          onClick={() => {
+            navigate("/exercises");
+          }}
+        >
           <b>exercícios</b>
         </Button>
-        <Button onClick={() =>{navigate('/help')}}>
+        <Button
+          onClick={() => {
+            navigate("/help");
+          }}
+        >
           <b>ajuda</b>
         </Button>
       </Box>
