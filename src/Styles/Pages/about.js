@@ -9,6 +9,7 @@ export const Container = styled.div`
   min-height: 100vh;
   height: 100%;
   padding-top: 90px;
+background-color: whitesmoke;
 `;
 
 export const Box = styled.div`
@@ -16,7 +17,7 @@ export const Box = styled.div`
   flex-direction: column;
   justify-content: space-around;
 
-  background-color: whitesmoke;
+  background-color: white;
   width: 70%;
   height: 100%;
 

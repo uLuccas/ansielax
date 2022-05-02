@@ -6,30 +6,22 @@ export const Container = styled.div`
   align-items: center;
   justify-content: flex-start;
   width: 100%;
-  min-height: 100vh;
+
   height: 100%;
-  padding-top: 90px;
-  background-color: whitesmoke;
+  padding: 20px 0px 0px 0px;
 `;
 
-export const Box = styled.div`
+export const AreaWrapper = styled.div`
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
-  background-color: white;
-  width: 70%;
-  min-height: 400px;
-  height: 100%;
 
-  margin: 10px;
-  padding: 10px 40px;
-  border-radius: 15px;
-  box-shadow: 2px 5px 5px #ccc;
-`;
-
-export const Title = styled.h1`
-  margin: 25px 0px;
+  img {
+    margin-top: 25px;
+    width: 350px;
+  }
 `;
 
 export const Button = styled.button`
@@ -53,14 +45,24 @@ export const Button = styled.button`
   }
 `;
 
-export const AreaImg = styled.div`
+export const AreaButton = styled.div`
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  width: 90%;
+  justify-content: center;
+  height: auto;
 
-  img {
-    width: 160px;
-    cursor: pointer;
+  margin: 15px 0px;
+  padding: 10px 0px;
+
+  button {
+    margin: 0px 10px;
   }
+`;
+
+export const AreaTitle = styled.div`
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #87cefa;
+  margin-bottom: 15px;
 `;

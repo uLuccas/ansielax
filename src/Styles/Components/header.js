@@ -8,7 +8,7 @@ export const Container = styled.div`
 
   width: 100%;
   height: 90px;
-  padding: 0 20px 0px 50px;
+  padding: 5px 20px 0px 50px;
 
   font-size: 35px;
   background: linear-gradient(45deg, #87cefa, #4b0082);
@@ -17,9 +17,15 @@ export const Container = styled.div`
 
   z-index: 1;
   position: fixed;
-  -webkit-scrollbar { 
-	display: none;
-}
+
+  img {
+    width: 200px;
+    cursor: pointer;
+  }
+
+  -webkit-scrollbar {
+    display: none;
+  }
 `;
 
 export const Box = styled.div`

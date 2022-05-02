@@ -9,6 +9,7 @@ export const Container = styled.div`
   min-height: 100vh;
   height: 100%;
   padding-top: 90px;
+  background-color:#fff;
 `;
 
 export const Box = styled.div`
@@ -17,7 +18,8 @@ export const Box = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  background-color: whitesmoke;
+  background-color: #87cefa;
+  color: white;
   width: 70%;
   height: 100%;
 
@@ -33,7 +35,9 @@ export const BoxWithLink = styled.div`
   justify-content: space-around;
   align-items: center;
 
-  background-color: whitesmoke;
+  /* background-color: white; */
+  background-color: #87cefa;
+  color: white;
   width: 70%;
   height: 100%;
 

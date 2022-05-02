@@ -1,5 +1,4 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import {
   Container,
   Box,
@@ -9,8 +8,6 @@ import {
 } from "../../Styles/Pages/about";
 
 export function About() {
-  const navigate = useNavigate();
-
   return (
     <Container>
       <Title>Sobre a Ansiedade</Title>
